@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://resilientwebdesign.com/chapter7/ -->
+<html lang="fr" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="theme-color" content="#5f7995">
+<meta name="author" content="Jeremy Keith">
+<meta name="description" content="Chapitre sept: Défis">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@adactio">
+<meta name="twitter:creator" content="@adactio">
+<meta name="twitter:title" property="og:title" content="Resilient Web Design—Chapitre 7">
+<meta name="twitter:description" property="og:description" content="Chapitre sept: Défis">
+<meta name="twitter:url" property="og:url" content="https://resilientwebdesign.com/chapter7/">
+<meta name="twitter:image" property="og:image" content="https://resilientwebdesign.com/chapter7/images/medium/devices.jpg">
+<title>Resilient Web Design—Chapitre 7</title>
+<link rel="preload" href="https://resilientwebdesign.com/fonts/etbookot-roman-webfont.woff2" crossorigin="" type="font/woff2" as="font">
+<link rel="preload" href="./index_files/scripts.js" as="script">
+<link rel="stylesheet" href="./index_files/styles.css">
+<link rel="contents" href="https://resilientwebdesign.com/contents/">
+<link rel="prev" href="https://resilientwebdesign.com/chapter6/">
+<link rel="next prefetch author" href="https://resilientwebdesign.com/author/">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="amphtml" href="https://resilientwebdesign.com/chapter7/amp.html">
+<link rel="manifest" href="https://resilientwebdesign.com/manifest.json">
+<link rel="icon shortcut" href="https://resilientwebdesign.com/images/icon512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="https://resilientwebdesign.com/images/icon512.png" type="image/png">
+<link rel="icon" href="https://resilientwebdesign.com/favicon.ico" type="image/x-icon">
+<style type="text/css">/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#wanteeed html, #wanteeed body, #wanteeed div, #wanteeed span, #wanteeed applet, #wanteeed object, #wanteeed iframe,
+#wanteeed h1, #wanteeed h2, #wanteeed h3, #wanteeed h4, #wanteeed h5, #wanteeed h6, #wanteeed p, #wanteeed blockquote, #wanteeed pre,
+#wanteeed a, #wanteeed abbr, #wanteeed acronym, #wanteeed address, #wanteeed big, #wanteeed cite, #wanteeed code,
+#wanteeed del, #wanteeed dfn, #wanteeed em, #wanteeed img, #wanteeed ins, #wanteeed kbd, #wanteeed q, #wanteeed s, #wanteeed samp,
+#wanteeed small, #wanteeed strike, #wanteeed strong, #wanteeed sub, #wanteeed sup, #wanteeed tt, #wanteeed var,
+#wanteeed b, #wanteeed u, #wanteeed i, #wanteeed center,
+#wanteeed dl, #wanteeed dt, #wanteeed dd, #wanteeed ol, #wanteeed ul, #wanteeed li,
+#wanteeed fieldset, #wanteeed form, #wanteeed label, #wanteeed legend,
+#wanteeed table, #wanteeed caption, #wanteeed tbody, #wanteeed tfoot, #wanteeed thead, #wanteeed tr, #wanteeed th, #wanteeed td,
+#wanteeed article, #wanteeed aside, #wanteeed canvas, #wanteeed details, #wanteeed embed, 
+#wanteeed figure, #wanteeed figcaption, #wanteeed footer, #wanteeed header, #wanteeed hgroup, 
+#wanteeed menu, #wanteeed nav, #wanteeed output, #wanteeed ruby, #wanteeed section, #wanteeed summary,
+#wanteeed time, #wanteeed mark, #wanteeed audio, #wanteeed video, #wanteeed button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	font:13px "Verdana", sans-serif;
+	text-align:left;
+	vertical-align: baseline;
+	-webkit-box-shadow: none;
+	-webkit-box-sizing:initial;
+	box-sizing:initial;
+	box-shadow: none;
+	color:#555555;
+	text-transform:none;
+}
+/* HTML5 display-role reset for older browsers */
+#wanteeed article, #wanteeed aside, #wanteeed details, #wanteeed figcaption, #wanteeed figure, 
+#wanteeed footer, #wanteeed header, #wanteeed hgroup, #wanteeed menu, #wanteeed nav, #wanteeed section {
+	display: block;
+}
+#wanteeed body {
+	line-height: 1;
+}
+#wanteeed ol, #wanteeed ul {
+	list-style: none;
+}
+#wanteeed blockquote, #wanteeed q {
+	quotes: none;
+}
+#wanteeed blockquote:before, #wanteeed blockquote:after,
+#wanteeed q:before, #wanteeed q:after {
+	content: '';
+	content: none;
+}
+#wanteeed table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*report*/
+
+#wanteeed-report html, #wanteeed-report body, #wanteeed-report div, #wanteeed-report span, #wanteeed-report applet, #wanteeed-report object, #wanteeed-report iframe,
+#wanteeed-report h1, #wanteeed-report h2, #wanteeed-report h3, #wanteeed-report h4, #wanteeed-report h5, #wanteeed-report h6, #wanteeed-report p, #wanteeed-report blockquote, #wanteeed-report pre,
+#wanteeed-report a, #wanteeed-report abbr, #wanteeed-report acronym, #wanteeed-report address, #wanteeed-report big, #wanteeed-report cite, #wanteeed-report code,
+#wanteeed-report del, #wanteeed-report dfn, #wanteeed-report em, #wanteeed-report img, #wanteeed-report ins, #wanteeed-report kbd, #wanteeed-report q, #wanteeed-report s, #wanteeed-report samp,
+#wanteeed-report small, #wanteeed-report strike, #wanteeed-report strong, #wanteeed-report sub, #wanteeed-report sup, #wanteeed-report tt, #wanteeed-report var,
+#wanteeed-report b, #wanteeed-report u, #wanteeed-report i, #wanteeed-report center,
+#wanteeed-report dl, #wanteeed-report dt, #wanteeed-report dd, #wanteeed-report ol, #wanteeed-report ul, #wanteeed-report li,
+#wanteeed-report fieldset, #wanteeed-report form, #wanteeed-report label, #wanteeed-report legend,
+#wanteeed-report table, #wanteeed-report caption, #wanteeed-report tbody, #wanteeed-report tfoot, #wanteeed-report thead, #wanteeed-report tr, #wanteeed-report th, #wanteeed-report td,
+#wanteeed-report article, #wanteeed-report aside, #wanteeed-report canvas, #wanteeed-report details, #wanteeed-report embed, 
+#wanteeed-report figure, #wanteeed-report figcaption, #wanteeed-report footer, #wanteeed-report header, #wanteeed-report hgroup, 
+#wanteeed-report menu, #wanteeed-report nav, #wanteeed-report output, #wanteeed-report ruby, #wanteeed-report section, #wanteeed-report summary,
+#wanteeed-report time, #wanteeed-report mark, #wanteeed-report audio, #wanteeed-report video, #wanteeed-report button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	text-align:left;
+	font:13px "Verdana", sans-serif;
+	vertical-align: baseline;
+	-webkit-box-shadow: none;
+	-webkit-box-sizing:initial;
+	box-sizing:initial;
+	box-shadow: none;
+	color:#555555;
+	text-transform:none;
+}
+/* HTML5 display-role reset for older browsers */
+#wanteeed-report article, #wanteeed-report aside, #wanteeed-report details, #wanteeed-report figcaption, #wanteeed-report figure, 
+#wanteeed-report footer, #wanteeed-report header, #wanteeed-report hgroup, #wanteeed-report menu, #wanteeed-report nav, #wanteeed-report section {
+	display: block;
+}
+#wanteeed-report body {
+	line-height: 1;
+}
+#wanteeed-report ol, #wanteeed-report ul {
+	list-style: none;
+}
+#wanteeed-report blockquote, #wanteeed-report q {
+	quotes: none;
+}
+#wanteeed-report blockquote:before, #wanteeed-report blockquote:after,
+#wanteeed-report q:before, #wanteeed-report q:after {
+	content: '';
+	content: none;
+}
+
+/*main item **/
+
+
+.wanteeed-main-item html, .wanteeed-main-item body, .wanteeed-main-item div, .wanteeed-main-item span, .wanteeed-main-item applet, .wanteeed-main-item object, .wanteeed-main-item iframe,
+.wanteeed-main-item h1, .wanteeed-main-item h2, .wanteeed-main-item h3, .wanteeed-main-item h4, .wanteeed-main-item h5, .wanteeed-main-item h6, .wanteeed-main-item p, .wanteeed-main-item blockquote, .wanteeed-main-item pre,
+.wanteeed-main-item a, .wanteeed-main-item abbr, .wanteeed-main-item acronym, .wanteeed-main-item address, .wanteeed-main-item big, .wanteeed-main-item cite, .wanteeed-main-item code,
+.wanteeed-main-item del, .wanteeed-main-item dfn, .wanteeed-main-item em, .wanteeed-main-item img, .wanteeed-main-item ins, .wanteeed-main-item kbd, .wanteeed-main-item q, .wanteeed-main-item s, .wanteeed-main-item samp,
+.wanteeed-main-item small, .wanteeed-main-item strike, .wanteeed-main-item strong, .wanteeed-main-item sub, .wanteeed-main-item sup, .wanteeed-main-item tt, .wanteeed-main-item var,
+.wanteeed-main-item b, .wanteeed-main-item u, .wanteeed-main-item i, .wanteeed-main-item center,
+.wanteeed-main-item dl, .wanteeed-main-item dt, .wanteeed-main-item dd, .wanteeed-main-item ol, .wanteeed-main-item ul, .wanteeed-main-item li,
+.wanteeed-main-item fieldset, .wanteeed-main-item form, .wanteeed-main-item label, .wanteeed-main-item legend,
+.wanteeed-main-item table, .wanteeed-main-item caption, .wanteeed-main-item tbody, .wanteeed-main-item tfoot, .wanteeed-main-item thead, .wanteeed-main-item tr, .wanteeed-main-item th, .wanteeed-main-item td,
+.wanteeed-main-item article, .wanteeed-main-item aside, .wanteeed-main-item canvas, .wanteeed-main-item details, .wanteeed-main-item embed, 
+.wanteeed-main-item figure, .wanteeed-main-item figcaption, .wanteeed-main-item footer, .wanteeed-main-item header, .wanteeed-main-item hgroup, 
+.wanteeed-main-item menu, .wanteeed-main-item nav, .wanteeed-main-item output, .wanteeed-main-item ruby, .wanteeed-main-item section, .wanteeed-main-item summary,
+.wanteeed-main-item time, .wanteeed-main-item mark, .wanteeed-main-item audio, .wanteeed-main-item video, .wanteeed-main-item button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	text-align:left;
+	font:13px "Verdana", sans-serif;
+	vertical-align: baseline;
+	-webkit-box-shadow: none;
+	-webkit-box-sizing:initial;
+	box-sizing:initial;
+	box-shadow: none;
+	color:#555555;
+	text-transform:none;
+}
+/* HTML5 display-role reset for older browsers */
+.wanteeed-main-item article, .wanteeed-main-item aside, .wanteeed-main-item details, .wanteeed-main-item figcaption, .wanteeed-main-item figure, 
+.wanteeed-main-item footer, .wanteeed-main-item header, .wanteeed-main-item hgroup, .wanteeed-main-item menu, .wanteeed-main-item nav, .wanteeed-main-item section {
+	display: block;
+}
+.wanteeed-main-item body {
+	line-height: 1;
+}
+.wanteeed-main-item ol, .wanteeed-main-item ul {
+	list-style: none;
+}
+.wanteeed-main-item blockquote, .wanteeed-main-item q {
+	quotes: none;
+}
+.wanteeed-main-item blockquote:before, .wanteeed-main-item blockquote:after,
+.wanteeed-main-item q:before, .wanteeed-main-item q:after {
+	content: '';
+	content: none;
+}
+
+
+
+
+#wanteeed-report table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wanteeed-progress-bar div  {
+    background-size: 30px 30px;
+	color:white;
+	background-color:rgb(209, 43, 53);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                        transparent 75%, transparent);            
+    
+    -webkit-animation: animate-stripes 3s linear infinite;             
+}
+
+
+@-webkit-keyframes animate-stripes
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: 60px 0;
+    }
+}</style><style type="text/css">/* ========================================================================
+ * bootstrap-tour - v0.10.1
+ * http://bootstraptour.com
+ * ========================================================================
+ * Copyright 2012-2013 Ulrich Sossou
+ *
+ * ========================================================================
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ========================================================================
+ */
+
+/*!
+ * Bootstrap v3.1.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+
+.popover-wanteeed html, .popover-wanteeed body, .popover-wanteeed div, .popover-wanteeed span, .popover-wanteeed applet, .popover-wanteeed object, .popover-wanteeed iframe,
+.popover-wanteeed h1, .popover-wanteeed h2, .popover-wanteeed h3, .popover-wanteeed h4, .popover-wanteeed h5, .popover-wanteeed h6, .popover-wanteeed p, .popover-wanteeed blockquote, .popover-wanteeed pre,
+.popover-wanteeed a, .popover-wanteeed abbr, .popover-wanteeed acronym, .popover-wanteeed address, .popover-wanteeed big, .popover-wanteeed cite, .popover-wanteeed code,
+.popover-wanteeed del, .popover-wanteeed dfn, .popover-wanteeed em, .popover-wanteeed img, .popover-wanteeed ins, .popover-wanteeed kbd, .popover-wanteeed q, .popover-wanteeed s, .popover-wanteeed samp,
+.popover-wanteeed small, .popover-wanteeed strike, .popover-wanteeed strong, .popover-wanteeed sub, .popover-wanteeed sup, .popover-wanteeed tt, .popover-wanteeed var,
+.popover-wanteeed b, .popover-wanteeed u, .popover-wanteeed i, .popover-wanteeed center,
+.popover-wanteeed dl, .popover-wanteeed dt, .popover-wanteeed dd, .popover-wanteeed ol, .popover-wanteeed ul, .popover-wanteeed li,
+.popover-wanteeed fieldset, .popover-wanteeed form, .popover-wanteeed label, .popover-wanteeed legend,
+.popover-wanteeed table, .popover-wanteeed caption, .popover-wanteeed tbody, .popover-wanteeed tfoot, .popover-wanteeed thead, .popover-wanteeed tr, .popover-wanteeed th, .popover-wanteeed td,
+.popover-wanteeed article, .popover-wanteeed aside, .popover-wanteeed canvas, .popover-wanteeed details, .popover-wanteeed embed,
+.popover-wanteeed figure, .popover-wanteeed figcaption, .popover-wanteeed footer, .popover-wanteeed header, .popover-wanteeed hgroup,
+.popover-wanteeed menu, .popover-wanteeed nav, .popover-wanteeed output, .popover-wanteeed ruby, .popover-wanteeed section, .popover-wanteeed summary,
+.popover-wanteeed time, .popover-wanteeed mark, .popover-wanteeed audio, .popover-wanteeed video, .popover-wanteeed button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	font:13px "Verdana", sans-serif;
+	text-align:left;
+	vertical-align: baseline;
+	-webkit-box-shadow: none;
+	-webkit-box-sizing:initial;
+	box-sizing:initial;
+	box-shadow: none;
+	color:#555555;
+	text-transform:none;
+	background:none;
+	bottom:inherit ;
+}
+/* HTML5 display-role reset for older browsers *//*
+.popover-wanteeed article, .popover-wanteeed aside, .popover-wanteeed details, .popover-wanteeed figcaption, .popover-wanteeed figure,
+.popover-wanteeed footer, .popover-wanteeed header, .popover-wanteeed hgroup, .popover-wanteeed menu, .popover-wanteeed nav, .popover-wanteeed section {
+	display: block;
+}
+.popover-wanteeed body {
+	line-height: 1;
+}
+.popover-wanteeed ol, .popover-wanteeed ul {
+	list-style: none;
+}
+.popover-wanteeed blockquote, .popover-wanteeed q {
+	quotes: none;
+}
+.popover-wanteeed blockquote:before, .popover-wanteeed blockquote:after,
+.popover-wanteeed q:before, .popover-wanteeed q:after {
+	content: '';
+	content: none;
+}
+.popover-wanteeed table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+
+
+.popover-wanteeed .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.popover-wanteeed .btn:focus,
+.popover-wanteeed .btn:active:focus,
+.popover-wanteeed .btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.popover-wanteeed .btn:hover,
+.popover-wanteeed .btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+.popover-wanteeed .btn:active,
+.popover-wanteeed .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.popover-wanteeed .btn.disabled,
+.popover-wanteeed .btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.popover-wanteeed .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.popover-wanteeed .btn-default:hover,
+.popover-wanteeed .btn-default:focus,
+.popover-wanteeed .btn-default:active,
+.popover-wanteeed .btn-default.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.popover-wanteeed .btn-default:active,
+.popover-wanteeed .btn-default.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.popover-wanteeed .btn-default.disabled,
+.popover-wanteeed .btn-default[disabled],
+.popover-wanteeed fieldset[disabled] .btn-default,
+.popover-wanteeed .btn-default.disabled:hover,
+.popover-wanteeed .btn-default[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-default:hover,
+.popover-wanteeed .btn-default.disabled:focus,
+.popover-wanteeed .btn-default[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-default:focus,
+.popover-wanteeed .btn-default.disabled:active,
+.popover-wanteeed .btn-default[disabled]:active,
+.popover-wanteeed fieldset[disabled] .btn-default:active,
+.popover-wanteeed .btn-default.disabled.active,
+.popover-wanteeed .btn-default[disabled].active,
+.popover-wanteeed fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.popover-wanteeed .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+.popover-wanteeed .btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.popover-wanteeed .btn-primary:hover,
+.popover-wanteeed .btn-primary:focus,
+.popover-wanteeed .btn-primary:active,
+.popover-wanteeed .btn-primary.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+.popover-wanteeed .btn-primary:active,
+.popover-wanteeed .btn-primary.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.popover-wanteeed .btn-primary.disabled,
+.popover-wanteeed .btn-primary[disabled],
+.popover-wanteeed fieldset[disabled] .btn-primary,
+.popover-wanteeed .btn-primary.disabled:hover,
+.popover-wanteeed .btn-primary[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-primary:hover,
+.popover-wanteeed .btn-primary.disabled:focus,
+.popover-wanteeed .btn-primary[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-primary:focus,
+.popover-wanteeed .btn-primary.disabled:active,
+.popover-wanteeed .btn-primary[disabled]:active,
+.popover-wanteeed fieldset[disabled] .btn-primary:active,
+.popover-wanteeed .btn-primary.disabled.active,
+.popover-wanteeed .btn-primary[disabled].active,
+.popover-wanteeed fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.popover-wanteeed .btn-primary .badge {
+  color: #428bca;
+  background-color: #ffffff;
+}
+.popover-wanteeed .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.popover-wanteeed .btn-success:hover,
+.popover-wanteeed .btn-success:focus,
+.popover-wanteeed .btn-success:active,
+.popover-wanteeed .btn-success.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.popover-wanteeed .btn-success:active,
+.popover-wanteeed .btn-success.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.popover-wanteeed .btn-success.disabled,
+.popover-wanteeed .btn-success[disabled],
+.popover-wanteeed fieldset[disabled] .btn-success,
+.popover-wanteeed .btn-success.disabled:hover,
+.popover-wanteeed .btn-success[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-success:hover,
+.popover-wanteeed .btn-success.disabled:focus,
+.popover-wanteeed .btn-success[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-success:focus,
+.popover-wanteeed .btn-success.disabled:active,
+.popover-wanteeed .btn-success[disabled]:active,
+.popover-wanteeed fieldset[disabled] .btn-success:active,
+.popover-wanteeed .btn-success.disabled.active,
+.popover-wanteeed .btn-success[disabled].active,
+.popover-wanteeed fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.popover-wanteeed .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.popover-wanteeed .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.popover-wanteeed .btn-info:hover,
+.popover-wanteeed .btn-info:focus,
+.popover-wanteeed .btn-info:active,
+.popover-wanteeed .btn-info.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.popover-wanteeed .btn-info:active,
+.popover-wanteeed .btn-info.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.popover-wanteeed .btn-info.disabled,
+.popover-wanteeed .btn-info[disabled],
+.popover-wanteeed fieldset[disabled] .btn-info,
+.popover-wanteeed .btn-info.disabled:hover,
+.popover-wanteeed .btn-info[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-info:hover,
+.popover-wanteeed .btn-info.disabled:focus,
+.popover-wanteeed .btn-info[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-info:focus,
+.popover-wanteeed .btn-info.disabled:active,
+.popover-wanteeed .btn-info[disabled]:active,
+.popover-wanteeed fieldset[disabled] .btn-info:active,
+.popover-wanteeed .btn-info.disabled.active,
+.popover-wanteeed .btn-info[disabled].active,
+.popover-wanteeed fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.popover-wanteeed .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.popover-wanteeed .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.popover-wanteeed .btn-warning:hover,
+.popover-wanteeed .btn-warning:focus,
+.popover-wanteeed .btn-warning:active,
+.popover-wanteeed .btn-warning.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.popover-wanteeed .btn-warning:active,
+.popover-wanteeed .btn-warning.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.popover-wanteeed .btn-warning.disabled,
+.popover-wanteeed .btn-warning[disabled],
+.popover-wanteeed fieldset[disabled] .btn-warning,
+.popover-wanteeed .btn-warning.disabled:hover,
+.popover-wanteeed .btn-warning[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-warning:hover,
+.popover-wanteeed .btn-warning.disabled:focus,
+.popover-wanteeed .btn-warning[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-warning:focus,
+.popover-wanteeed .btn-warning.disabled:active,
+.popover-wanteeed .btn-warning[disabled]:active,
+.popover-wanteeed fieldset[disabled] .btn-warning:active,
+.popover-wanteeed .btn-warning.disabled.active,
+.popover-wanteeed .btn-warning[disabled].active,
+.popover-wanteeed fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.popover-wanteeed .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.popover-wanteeed .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.popover-wanteeed .btn-danger:hover,
+.popover-wanteeed .btn-danger:focus,
+.popover-wanteeed .btn-danger:active,
+.popover-wanteeed .btn-danger.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.popover-wanteeed .btn-danger:active,
+.popover-wanteeed .btn-danger.active,
+.popover-wanteeed .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.popover-wanteeed .btn-danger.disabled,
+.popover-wanteeed .btn-danger[disabled],
+.popover-wanteeed fieldset[disabled] .btn-danger,
+.popover-wanteeed .btn-danger.disabled:hover,
+.popover-wanteeed .btn-danger[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-danger:hover,
+.popover-wanteeed .btn-danger.disabled:focus,
+.popover-wanteeed .btn-danger[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-danger:focus,
+.popover-wanteeed .btn-danger.disabled:active,
+.popover-wanteeed .btn-danger[disabled]:active,
+.popover-wanteeed fieldset[disabled] .btn-danger:active,
+.popover-wanteeed .btn-danger.disabled.active,
+.popover-wanteeed .btn-danger[disabled].active,
+.popover-wanteeed fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.popover-wanteeed .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+.popover-wanteeed .btn-link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+.popover-wanteeed .btn-link,
+.popover-wanteeed .btn-link:active,
+.popover-wanteeed .btn-link[disabled],
+.popover-wanteeed fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.popover-wanteeed .btn-link,
+.popover-wanteeed .btn-link:hover,
+.popover-wanteeed .btn-link:focus,
+.popover-wanteeed .btn-link:active {
+  border-color: transparent;
+}
+.popover-wanteeed .btn-link:hover,
+.popover-wanteeed .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.popover-wanteeed .btn-link[disabled]:hover,
+.popover-wanteeed fieldset[disabled] .btn-link:hover,
+.popover-wanteeed .btn-link[disabled]:focus,
+.popover-wanteeed fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+.popover-wanteeed .btn-lg,
+.popover-wanteeed .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.popover-wanteeed .btn-sm,
+.popover-wanteeed .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.popover-wanteeed .btn-xs,
+.popover-wanteeed btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.popover-wanteeed .btn-block {
+  display: block;
+  width: 100%;
+}
+.popover-wanteeed .btn-block + .btn-block {
+  margin-top: 5px;
+}
+.popover-wanteeed input[type="submit"].btn-block,
+.popover-wanteeed input[type="reset"].btn-block,
+.popover-wanteeed input[type="button"].btn-block {
+  width: 100%;
+}
+.popover-wanteeed .btn-group,
+.popover-wanteeed .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.popover-wanteeed .btn-group > .btn,
+.popover-wanteeed .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+.popover-wanteeed .btn-group > .btn:hover,
+.popover-wanteeed .btn-group-vertical > .btn:hover,
+.popover-wanteeed .btn-group > .btn:focus,
+.popover-wanteeed .btn-group-vertical > .btn:focus,
+.popover-wanteeed .btn-group > .btn:active,
+.popover-wanteeed .btn-group-vertical > .btn:active,
+.popover-wanteeed .btn-group > .btn.active,
+.popover-wanteeed .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+.popover-wanteeed .btn-group > .btn:focus,
+.popover-wanteeed .btn-group-vertical > .btn:focus {
+  outline: 0;
+}
+.popover-wanteeed .btn-group .btn + .btn,
+.popover-wanteeed .btn-group .btn + .btn-group,
+.popover-wanteeed .btn-group .btn-group + .btn,
+.popover-wanteeed .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+.popover-wanteeed .btn-toolbar {
+  margin-left: -5px;
+}
+.popover-wanteeed .btn-toolbar .btn-group,
+.popover-wanteeed .btn-toolbar .input-group {
+  float: left;
+}
+.popover-wanteeed .btn-toolbar > .btn,
+.popover-wanteeed .btn-toolbar > .btn-group,
+.popover-wanteeed .btn-toolbar > .input-group {
+  margin-left: 5px;
+}
+.popover-wanteeed .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+.popover-wanteeed .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+.popover-wanteeed .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.popover-wanteeed .btn-group > .btn:last-child:not(:first-child),
+.popover-wanteeed .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.popover-wanteeed .btn-group > .btn-group {
+  float: left;
+}
+.popover-wanteeed .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.popover-wanteeed .btn-group > .btn-group:first-child > .btn:last-child,
+.popover-wanteeed .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.popover-wanteeed .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.popover-wanteeed .btn-group .dropdown-toggle:active,
+.popover-wanteeed .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+.popover-wanteeed .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.popover-wanteeed .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.popover-wanteeed .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.popover-wanteeed .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.popover-wanteeed .btn .caret {
+  margin-left: 0;
+}
+.popover-wanteeed .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+.popover-wanteeed .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+.popover-wanteeed .btn-group-vertical > .btn,
+.popover-wanteeed .btn-group-vertical > .btn-group,
+.popover-wanteeed .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+.popover-wanteeed .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+.popover-wanteeed .btn-group-vertical > .btn + .btn,
+.popover-wanteeed .btn-group-vertical > .btn + .btn-group,
+.popover-wanteeed .btn-group-vertical > .btn-group + .btn,
+.popover-wanteeed .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+.popover-wanteeed .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.popover-wanteeed .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.popover-wanteeed .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.popover-wanteeed .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.popover-wanteeed .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.popover-wanteeed .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.popover-wanteeed .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.popover-wanteeed .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.popover-wanteeed .btn-group-justified > .btn,
+.popover-wanteeed .btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+.popover-wanteeed .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+.popover-wanteeed .btn-group-justified > .btn-group .dropdown-menu {
+  left: auto;
+}
+.popover-wanteeed [data-toggle="buttons"] > .btn > input[type="radio"],
+.popover-wanteeed [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.popover-wanteeed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+  bottom:inherit ;
+}
+.popover-wanteeed.top {
+  margin-top: -10px;
+}
+.popover-wanteeed.right {
+  margin-left: 10px;
+}
+.popover-wanteeed.bottom {
+  margin-top: 10px;
+}
+.popover-wanteeed.left {
+  margin-left: -10px;
+}
+.popover-wanteeed .popover-title {
+  margin: 0;
+  padding: 8px 14px ;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+  text-align:center;
+}
+.popover-wanteeed .popover-content {
+  padding: 9px 14px;
+}
+.popover-wanteeed > .arrow,
+.popover-wanteeed > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.popover-wanteeed > .arrow {
+  border-width: 11px;
+}
+.popover-wanteeed > .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+.popover-wanteeed.top > .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+.popover-wanteeed.top > .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #ffffff;
+}
+.popover-wanteeed.right > .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+.popover-wanteeed.right > .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #ffffff;
+}
+.popover-wanteeed.bottom > .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+.popover-wanteeed.bottom > .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #ffffff;
+}
+.popover-wanteeed.left > .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+.popover-wanteeed.left > .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  bottom: -10px;
+}
+.tour-backdrop-wanteeed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1999998;
+  background-color: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.tour-step-backdrop-wanteeed {
+  position: relative;
+  z-index: 1999999;
+  background: inherit;
+}
+.tour-step-backdrop-wanteeed > td {
+  position: relative;
+  z-index: 1999999;
+}
+.tour-step-background-wanteeed {
+  position: absolute !important;
+  z-index: 1999998;
+  background: inherit;
+  border-radius: 6px;
+}
+.popover-wanteeed[class*="tour-"] {
+  z-index: 1999999;/* 1100;*/
+}
+.popover-wanteeed[class*="tour-"] .popover-navigation {
+  padding: 9px 14px;
+}
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="end"] {
+  float: right;
+}
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="prev"],
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="next"],
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="end"] {
+  cursor: pointer;
+}
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="prev"].disabled,
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="next"].disabled,
+.popover-wanteeed[class*="tour-"] .popover-navigation *[data-role="end"].disabled {
+  cursor: default;
+}
+.popover-wanteeed[class*="tour-"].orphan {
+  position: fixed;
+  margin-top: 0;
+}
+.popover-wanteeed[class*="tour-"].orphan .arrow {
+  display: none;
+}
+</style></head>
+<body>
+
+<header>
+<a href="https://resilientwebdesign.com/">Resilient Web Design</a>
+</header>
+
+<main>
+
+<h1><span>Chaptitre 7:</span> Défis</h1>
+
+
+<p>La quatrième conférence annuelle sur l'hypertexte a eu lieu à San Antonio, au Texas, en décembre 1991. Le projet World Wide Web de Tim Berners-Lee commençait alors à prendre forme. Pensant que les organisateurs de la conférence et les participants apprécieraient le projet, il a soumis une proposition à Hypertext 91. La proposition a été rejetée.</p>
+
+<p>La communauté HyperText ressent que le projet World Wide Web est un peu trop simpliste.
+Presque tous les systèmes hypertextes contiennent le concept de deux chemins liés.
+Si une ressource bouge, quelconque lien relié à cette ressource va s'actualiser automatiquement.
+Le web n’a fourni aucune garantie de ce type. C’est le système de liaison qui est plus facile - Vous avez juste à lier quelque chose et c’est tout. Pour les organisateurs de HyperText’91, cela semblait un peu trop naïf. Ils ne comprennent pas que la simplicité du web est actuellement sa force. C’est parce que la liaison est simple que tout le monde peut le faire. Cela s'avérerait crucial pour l'adoption et le succès du World Wide Web.
+</p>
+
+<p>Il est trop tentant de déclarer rapidement qu'une approche est naïve, trop simpliste et irréaliste. L'idée qu'un site Web peut simultanément offrir un accès universel à tout le monde tout en offrant une expérience immersive riche pour des appareils plus performants… qui semble aussi désespérément naïve.</p>
+
+<p>Ce jugement a été rendu à plusieurs reprises au cours de l'histoire du Web.
+</p>
+
+<section aria-labelledby="thisistoosimple">
+
+<h2 id="thisistoosimple">“C’est trop simple”
+</h2>
+
+<<<<<<< HEAD
+<p>Lorsque le projet de web standard a lancé sa campagne en encourageant les designers à passer sur des <code class="markup element">TABLE</code>s pour la mise en page de <abbr>CSS</abbr>, il a rencontré une résistance. A maintes reprises ils sont critiqués pour leur naïveté. "Bien sûr, une mise en page <abbr>CSS</abbr> peut convenir à un simple site personnel mais il est impossible qu’il s’adapte à un projet large et complexe.”
+</p>
+
+<p>TEnsuite, Doug Bowman a dirigé la refonte de Wired.com basée sur <abbr>CSS</abbr> et Mike Davidson a dirigé la refonte d' <abbr>ESPN</abbr>.Com basée sur <abbr>CSS</abbr>. Après cela, les vannes se sont ouvertes.</p>
+
+<p>Quand Ethan Marcotte a démontré le pouvoir du responsive design, il a rencontré une résistance. “Bien sûr, un design responsive peut marcher pour un simple site personnel mais il n’a aucun moyen de pouvoir s‘adapter à un projet large et complexe.”
+</p>
+
+<p>Puis le Boston Globe a lancé un site responsive. Microsoft a construit sa première page responsive. Les vannes s’ouvrent à nouveau.
+</p>
+
+<p>C'est une histoire similaire aujourd'hui. "Bien sûr, l'amélioration progressive peut fonctionner pour un simple site personnel, mais il n'y a aucun moyen de s'adapter à un grand projet complexe."
+</p>
+
+<p>Les vannes sont prêtes à s'ouvrir. Nous avons juste besoin de vous pour créer l'affiche pour une conception Web résiliente.
+</p>
+
+</section>
+
+<section aria-labelledby="thisistoodifficult">
+
+<h2 id="thisistoodifficult">“C’est trop difficile”
+</h2>
+
+<p>Créer des sites Web résilients est un défi. Il faut du temps pour appliquer les fonctionnalités et les faire fonctionner de manière réfléchie. La récompense est un site Web qui peut mieux réagir à des circonstances inattendues - navigateurs inhabituels, connexions réseau irrégulières, appareils obsolètes. Néanmoins, pour de nombreux concepteurs Web, le coût en temps semble trop élevé.
+</p>
+
+<p>Il convient de rappeler que construire avec une amélioration progressive ne signifie pas que  <em>tout</em> doit être mis à la disposition de <em>tous</em>. Au lieu de cela, c'est la fonctionnalité de base qui compte. Si chaque fonctionnalité devait être disponible pour chaque navigateur sur chaque appareil, ce serait en effet un processus incroyablement ardu. C'est pourquoi la priorisation est si importante. Tant que la fonctionnalité de base est disponible en utilisant la technologie la plus simple possible, vous pouvez, en toute conscience, appliquer des fonctionnalités plus avancées.
+</p>
+
+<p>Il est tout de même tout à fait possible que cette approche entraîne un double emploi. Si vous construisez un ancien serveur fashion avec un processus de soumission des formulaires et que vous l’améliorez avec du JavaScript, vous devez quand même à la fin répéter le même processus du client, encore une fois sur le serveur. Cela peut être aussi migré si vous n'utilisez que du JavaScript sur le serveur. Il est théoriquement possible d'écrire un JavaScript universel de sorte que le serveur et le navigateur partagent une seule base de code. Même sans JavaScript universel, je pense encore que ce n’est pas la meilleur solution que d’utiliser son temps à créer des crédits techniques.
+</p>
+
+<p>Le manuel de conception des services gouvernementaux du <abbr>UK</abbr>offre une forme encore plus courte du processus en trois étapes que j’ai décrit :</p>
+
+<ol>
+<li>Premièrement, il faut juste le faire marcher
+</li>
+<li>Deuxièmement, il faut mieux le faire marcher</li>
+</ol>
+
+<p>Le manuel de conception explique aussi pourquoi :
+</p>
+
+<blockquote>
+<p>Le manuel de conception explique aussi pourquoi :
+<abbr>HTML</abbr> sont facultatives, vous créerez une page Web meilleure et plus forte.”
+</p>
+</blockquote>
+
+<p>Ce type de résilience montre que le temps que l’on investit dans front est bien investi. vous pouvez aussi noter une chose intéressante; plus on utilise ce processus, moins il faudra de temps.</p>
+
+<p>Bouger des <code class="markup element">TABLE</code>s au <abbr>CSS</abbr> semble être quelque chose d'idéal impossible à atteindre. Les designers utilisent de manière confortable les <code class="markup element">TABLE</code> et les éléments  de <code class="markup element">FONT</code> pour la mise en page.  Pourquoi voudraient-ils apprendre une nouvelle manière de travailler ? Je me rappelle comment c’était compliqué de faire ma première mise en page en <abbr>CSS</abbr> après avoir utilisé pendant une année des hacks. Cela m'a pris un peu de temps. Mais ma seconde mise en page en <abbr>CSS</abbr>‐based layout didn’t take quite so long. After a while, it became&nbsp;normal.</p>
+
+<p>Les Designers à l'aise avec les mises en page à largeur fixe ont eu du mal avec un design responsive. Cette première mise en page flexible allait inévitablement prendre un certain temps à construire. Mais la deuxième mise en page flexible n'a pas pris si longtemps. Au bout d'un moment, c'est devenu normal.</p>
+
+<p>Ce n'est pas différent avec l'approche en couches nécessaire pour créer des sites Web résilients. Si vous n'êtes pas habitué à travailler de cette façon, la première fois que vous le faites, cela prendra un certain temps. Mais la deuxième fois ne prendra pas si longtemps. Après un certain temps, cela deviendra normal.</p>
+
+<p>Il y a aussi plusieurs situations où l’approche en 3 étapes ne marchera pas, mais elles ne sont pas aussi communes que vous le pensez. Si vous faites un jeux vidéo en 3<abbr>D</abbr> sur une page internet, la simple technologie capable d’assumer toutes ces fonctionnalités deviendra beaucoup plus complexe. Comme je l’ai dit, j’aime voir un simple jeu textuel d’aventure évoluer en un jeu de tir en vue première personne.</p>
+
+</section>
+
+<section aria-labelledby="howdoiconvince">
+
+<h2 id="howdoiconvince">“Comment convaincre ?”
+</h2>
+
+<p>La brillante informaticienne  <span id="Grace%20Hopper">Grace Hopper</span> a gardé une montre inhabituelle sur son mur. Elle fonctionnait dans le sens inverse des aiguilles d’une montre. Lorsqu'on lui a posé des questions à ce sujet, elle a souligné qu’il s’agissait d’une convention arbitraire, disant :</p>
+
+<blockquote>
+<p>
+L’homme est allergique au changement.  Ils aiment dire, “Nous avons tout fini grâce à cette solution.” J’essaye de combattre cela. C’est pourquoi, j’ai une montre sur mon mur qui tourne dans le sens inverse des aiguilles d’une montre”
+</p>
+</blockquote>
+
+<figure>
+<picture>
+<source media="all and (min-width: 75em)" srcset="images/large/grace-hopper.jpg">
+<source media="all and (min-width: 50em)" srcset="images/medium/grace-hopper.jpg, images/large/grace-hopper.jpg 1.5x">
+<img src="./index_files/grace-hopper.jpg" alt="Grace Hopper in uniform in front of an American flag." srcset="images/medium/grace-hopper.jpg 2x, images/large/grace-hopper.jpg 3x">
+</picture>
+<figcaption>Commandant Grace M.
+Hopper, United States Navy.
+</figcaption>
+</figure>
+
+<p>Le changement de comportement est difficile. Même si vous êtes convaincu des avantages d’une approche résiliente en matière de conception de sites Web, vous pourriez avoir du mal à convaincre vos collègues, votre patron ou vos clients. C’était toujours ainsi. Prenez le confort de l’histoire des normes Web et du design adaptatif. Ces approches ont finalement été adoptées par des gens qui étaient initialement résistants.
+</p>
+
+<p>Démontrer les avantages de l’amélioration progressive peut être difficile. Parce que le gain se produit dans des circonstances inattendues, l’approche à plusieurs niveaux est difficile à vendre. Plusieurs personnes ne sauront jamais comment un site est fait d’une manière résiliente. C’est une marque de qualité cachée qui ne sera pas notifiée par les personnes qui ont un navigateur moderne sur un nouvel ordinateur avec une connexion rapide.</p>
+
+<p>
+C’est pour les mêmes raisons, que vous pouvez intégrer cette approche responsive sans avoir à convaincre vos collègues, votre chef, ou vos clients. Si ils n’y portent pas attention, alors il ne le verront jamais. C’est pour ça que Grace Hopper a aussi dit, “C’est plus facile de demander pardon que de demander la permission.”
+</p>
+
+</section>
+
+<section aria-labelledby="tools">
+
+<h2 id="tools">Outils</h2>
+
+<p>Il peut être particulièrement difficile de modifier un flux de travail ou un processus s’il entre en conflit avec les outils utilisés. Un outil est censé aider les gens à faire leur travail de façon plus efficace. L’outil devrait être subordonné au flux de travail. Trop souvent, les outils dictent plutôt une façon de travailler préférée? Qu’il s'agisse d’éditeurs <abbr>WYSIWYG</abbr> ,de programmes de conception graphique,de systèmes de gestion de contenu ou de cadres JavaScript, les outils influencent inévitablement les flux de travail.
+</p>
+
+<p>Si vous êtes conscient de cette influence et que vous pouvez la reconnaître, alors vous êtes mieux placé pour choisir les outils qui vous conviennent le mieux. Il y a plusieurs facteurs qui jouent dans le choix d’un cadre de travail, par exemple : “Es-que cela est bien écrit ?”, “Es-que il y a une communauté active derrière ?,”Es-que la documentation est claire ?”.
+Mais outre cela, la plus importante des questions à demander reste, “Es-que cette approche est en lien avec  ma propre philosophie?"
+</p>
+
+<p>Tous les cadres de travail ont leur philosophie, parce que tous les cadres de travail ont été écrits par des personnes. Si votre philosophie s'aligne avec le cadre de travail, alors cela va vous aider à travailler plus efficacement. Mais si votre philosophie ne vas pas avec votre cadre de travail alors, vous allez vous battre à chaque étape pendant tout le chemin. Il pourrait même être tentant d’abandonner et laisser le cadre dicter votre flux de travail. Puis la queue du chien serait agitée.
+</p>
+
+<p>Choisissait un outil sagement. Cela serait terriblement honteux d'abandonner l’approche résiliente du web design parce que une différence d’opinion avec une partie d’un logiciel.</p>
+
+<p>Les divergences d’opinion se résument souvent à une inadéquation des priorités. Au cœur, l’approche progressive d’amélioration priorise les besoins des personnes, indépendamment de leur technologie. Les outils, les cadres et les bibliothèques de code, par contre, sont souvent conçus pour prioriser les besoins des concepteurs et des développeurs. Ce n’est pas une mauvaise chose. La commodité des développeurs est extrêmement précieuse. Mais personnellement, je pense que les besoins des utilisateurs devraient l’emporter sur la commodité des développeurs.
+</p>
+
+<p>Quand je suis confronté à un problème, je dois faire un choix entre faire de ce problème, celui de l’utilisateur ou mon problème. J’en fait tout le temps mon problème. C’est mon travail.
+</p>
+
+</section>
+
+<section aria-labelledby="futurefriendly">
+
+<h2 id="futurefriendly">Future friendly</h2>
+
+<p>En septembre 2011, j’étais en conférence au Tennessee avec des personnes beaucoup plus intelligentes que moi.  Une fois l’événement officiel terminé, nous nous sommes envolés pour la campagne où nous avions loué une maison pour quelques jours. Nous nous réunissions pour essayer de comprendre où le web allait.
+</p>
+
+<figure>
+<picture>
+<source media="all and (min-width: 75em)" srcset="images/large/devices.jpg">
+<source media="all and (min-width: 50em)" srcset="images/medium/devices.jpg, images/large/devices.jpg 1.5x">
+<img src="./index_files/devices.jpg" alt="A jumbled pile of phones, tablets, e‐readers." srcset="images/medium/devices.jpg 2x, images/large/devices.jpg 3x">
+</picture>
+<figcaption>Une petite partie des appareils connectés à internet
+</figcaption>
+</figure>
+
+<p>Franchement, nous étions paniqués. La prolifération des appareils mobiles avait tout changé. Les tablettes étaient à la hausse. Les gens parlaient des <abbr>TV</abbr>s sur Internet. Nous espérions savoir quelle serait la prochaine grande chose. Les réfrigérateurs sur Internet, peut-être?
+ 
+</p>
+
+<p>En fin de compte, la seule chose dont nous pouvions être certains était l’incertitude:
+</p>
+
+<blockquote>
+<p>“Les perturbations ne feront qu'améliorer. La quantité et la diversité des dispositifs connectés dont bon nombre n’ont pas encore été imaginés explosent, tout comme la quantité et la diversité des personnes qui les utilisent partout dans le monde.”</p>
+</blockquote>
+
+<p>Ce n’est pas une cause de désespoir; c’est un motif de célébration. Nous pourrions combattre cet avenir ou l’embrasser. Réalisant qu’il était impossible d’être la preuve de l’avenir, nous avons plutôt décidé d’être respectueux de l’avenir :</p>
+
+<ol>
+<li>1.Reconnaître et accepter l’imprévisibilité.</li>
+<li>2.Penser et se comporter</li>
+<li>3. Aidez les autres à faire de même.
+</li>
+</ol>
+
+<p>Cette première étape est la plus importante : reconnaître et accepter l’imprévisibilité. C’est la force motrice de la conception de réseaux résilients. La meilleure façon d’être respectueux de l’avenir est d’être rétrocompatible.
+</p>
+
+<figure>
+<picture>
+<source media="all and (min-width: 75em)" srcset="images/large/future-friendly.png">
+<source media="all and (min-width: 50em)" srcset="images/medium/future-friendly.png, images/large/future-friendly.png 1.5x">
+<img src="./index_files/future-friendly.png" alt="A child’s space helmet." srcset="images/medium/future-friendly.png 2x, images/large/future-friendly.png 3x">
+</picture>
+<figcaption>Le futur symbole de l’amitié</figcaption>
+</figure>
+
+</section>
+
+<section aria-labelledby="assumptions">
+
+<h2 id="assumptions">Hypothèses</h2>
+
+<p>«Nous exigeons des zones de doute et d'incertitude définies de manière rigide!» s'écrièrent les philosophes <cite id="Hitchhiker’s%20Guide%20To%20The%20Galaxy">du Guide de l'auto-stoppeur de<span id="Douglas%20Adams">Douglas Adams</span>ur la galaxie .</cite>.</p>
+
+<p>En tant que machines d'appariement de modèles, nous identifions rapidement les tendances et les codifions en hypothèses. Voici quelques hypothèses formulées au cours de l'histoire de la conception Web:</p>
+
+<ul>
+<li>Tout le monde a un écran de 640 pixels de large.</li>
+<li>Tout le monde a installé le plugin Flash.</li>
+<li>Tout le monde a un écran de 800 pixels de large.</li>
+<li>Tout le monde a une souris et un clavier.</li>
+<li>Tout le monde a un écran de 1024 pixels de large.</li>
+<li>Tout le monde dispose d'une connexion Internet rapide.</li>
+</ul>
+
+<p>La prolifération des appareils mobiles a fait sauter ces hypothèses. La montée en puissance du mobile n'a pas créé de nouvelles incertitudes, mais a plutôt mis en lumière les incertitudes qui existaient déjà.</p>
+
+<p>Cela aurait dû être une leçon précieuse. Mais avant trop longtemps, les anciennes hypothèses ont été remplacées par de nouvelles:</p>
+
+<ul>
+<li>Il y a des activités que les gens ne voudront jamais faire sur leur téléphone.</li>
+<li>Chaque téléphone dispose d'un écran tactile.</li>
+<li>Tous ceux qui utilisent un téléphone sont pressés.</li>
+<li>Chaque navigateur sur chaque téléphone prend en charge JavaScript.
+</li>
+</ul>
+
+<p>Ce genre d'hypothèses me rappelle toujours de vieilles blagues de physicien. "Supposons un navigateur Web parfaitement sphérique…"</p>
+
+<p>Les hypothèses sont séduisantes. Si seulement nous pouvions nous entendre sur certaines limites, la conception Web ne serait-elle pas tellement plus facile à contrôler?</p>
+
+<p>Aussi tentant que soit cet appel de sirène, il obscurcit la vraie nature du web incertaine en constante évolution. <span id="Carl%20Sagan">Carl Sagan</span> l' a mieux expliqué dans son livre <cite>The <span id="Demon‐Haunted%20World">Demon‐Haunted&nbsp;World</span></cite>:</p>
+
+<blockquote>
+<p>Il vaut bien mieux saisir l'univers tel qu'il est réellement que de persister dans l'illusion, aussi satisfaisante et rassurante soit-elle.</p>
+</blockquote>
+
+</section>
+
+<section aria-labelledby="thefuture">
+
+<h2 id="thefuture">L'avenir</h2>
+
+<p>J'aimerais pouvoir prédire l'avenir. La seule chose que je puisse prédire avec certitude, c'est que les choses vont changer.</p>
+
+<p>Je ne sais pas quel type d'appareils les gens utiliseront sur le Web. Je ne sais pas quel type de logiciel les gens utiliseront sur le Web.</p>
+
+<p>L'avenir, comme le Web, est inconnu.</p>
+
+<p>L'avenir, comme le Web, sera écrit par vous.</p>
+
+</section>
+
+<aside>
+<h2>Références</h2>
+<ol>
+<li><a href="https://www.gov.uk/service-manual"><cite>Manuel de conception des services gouvernementaux</cite></a></li>
+<li><a href="http://futurefriendlyweb.com/"><cite>Amical pour l'avenir</cite></a></li>
+</ol>
+</aside>
+
+</main>
+
+<nav>
+        <a href="../chapter7/" rel="next"><cite><span>Chapitre 7:</span>Défis</cite></a>
+        <ol start="0">
+            <li><a href="../introduction/"><cite>Introduction</cite></a></li>
+            <li><a href="../chapter1/"><cite><span>Chapitre 1</span> Fondations</cite></a></li>
+            <li><a href="../chapter2/"><cite><span>Chapitre 2</span> Matériaux</cite></a></li>
+            <li><a href="../chapter3/"><cite><span>Chapitre 3</span> Visions</cite></a></li>
+            <li><a href="../chapter4/"><cite><span>Chapitre 4</span> Langages</cite></a></li>
+            <li><a href="../chapter5/"><cite><span>Chapitre 5</span> Couches</cite></a></li>
+            <li><a href="../chapter6/"><cite><span>Chapitre 6</span> Etapes</cite></a></li>
+            <li><a href="../chapter7/"><cite><span>Chapitre 7</span> Défis</cite></a></li>
+            <li><a href="../author/" rel="author"><cite>A propos de l'auteur</cite></a></li>
+            <li><a href="../index/"><cite>Index</cite></a></li>
+        </ol>
+    </nav>
+    <footer>
+        <p><cite>Resilient Web Design</cite> a été écrit et produit par <a href="https://adactio.com"
+                class="v‐card">Jeremy Keith</a>, et composé en <a
+                href="https://edwardtufte.github.io/et-book/"><abbr>ET</abbr> Book</a>.</p>
+        <p><small>Licencié sous un <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative
+                    Commons Attribution‐ShareAlike 4.0 International License</a>.</small></p>
+    </footer>
+
+<script src="./index_files/scripts.js" defer=""></script>
+
+
+<iframe id="wanteeedPanel" data-version="1.10.3" allowtransparency="true" style="
+      width: 335px !important;
+      height: 250px !important;
+      min-width: 0;
+      min-height: 0;
+      display: none;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      left: auto;
+      border: none;
+      background-color: #ffffff;
+      overflow: hidden;
+      z-index: 9145739864;
+      clip: auto;
+      border-radius: 3px;
+      box-shadow: rgb(181, 181, 181) 1px 1px 3px 2px;
+    " src="./index_files/saved_resource.html"></iframe></body></html>
