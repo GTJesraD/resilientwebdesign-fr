@@ -92,20 +92,20 @@
 
 <p>En théorie, un fichier texte brut serait le moyen le plus simple de fournir les informations. Mais comme nous parlons spécifiquement du Web, il convient de mettre en garde contre cette étape : comment rendre la fonctionnalité de base disponible en utilisant la technologie <strong>web</strong>la plus simple possible? Ce serait un fichier <abbr>HTML</abbr> servi par une <abbr>URL</abbr>.</p>
 
-<p>Even at this early stage it’s possible to overcomplicate things. The <abbr>HTML</abbr> could be unnecessarily bloated. The <abbr>URL</abbr> could be unnecessarily verbose; hard to share or recall.</p>
+<p>Même à ce stade précoce, il est possible de compliquer les choses à l'excès. Le <abbr>HTML</abbr> pourrait être inutilement gonflé. L' <abbr>URL</abbr>  peut être inutilement verbeuse, difficile à partager ou à mémoriser.</p>
 
-<p>Now that the news has been marked up with the appropriate <abbr>HTML</abbr> elements—articles, headings, paragraphs, lists, and images—it’s time for step three: enhance!</p>
+<p>Maintenant que les informations ont été balisées avec les éléments<abbr>HTML</abbr> appropriés : articles, titres, paragraphes, listes et images, il est temps de passer à la troisième étape : l'amélioration !</p>
 
-<p>By default, the news will be presented using the browser’s own stylesheet. It’s legible, but not exactly pleasurable. By applying your own <abbr>CSS</abbr>, you can sculpt the content into a more pleasing shape. Whitespace, leading, colour and contrast are all at your disposal. You can even use custom fonts—an enhancement that was impossible on the web for many years.</p>
+<p>Par défaut, les nouvelles seront présentées à l'aide de la feuille de style propre au navigateur. C'est lisible, mais pas vraiment agréable. En appliquant votre propre <abbr>CSS</abbr>, vous pouvez sculpter le contenu dans une forme plus agréable. L'espace blanc, l'interlignage, la couleur et le contraste sont tous à votre disposition. Vous pouvez même utiliser des polices personnalisées, ce qui était impossible sur le Web pendant de nombreuses années.</p>
 
-<p>There’s no guarantee that every browser will be capable of executing every <abbr>CSS</abbr> declaration that you throw at it. That’s okay. Those browsers will ignore what they don’t understand. Crucially, the news is still available to everyone, regardless of the <abbr>CSS</abbr> capabilities of their browser.</p>
+<p>Il n'est pas garanti que chaque navigateur soit capable d'exécuter toutes les déclarations <abbr>CSS</abbr> que vous lui envoyez. Ce n'est pas grave. es navigateurs ignoreront ce qu'ils ne comprennent pas. L'essentiel est que les nouvelles soient accessibles à tous, quelles que soient les capacités <abbr>CSS</abbr> de leur navigateur.</p>
 
-<p>For browsers on large‐screen devices, you can introduce layout. It might seem odd at first to think of layout as an enhancement, but that’s the lesson of mobile‐first responsive design. Consider the content first, then mark it up with a sensible source order, then apply layout declarations within media queries.</p>
+<p>Pour les navigateurs des appareils à grand écran, vous pouvez introduire la mise en page. Il peut sembler étrange, au premier abord, de considérer la mise en page comme une amélioration, mais c'est la leçon à tirer de la conception responsive mobile-first. Considérez d'abord le contenu, puis marquez-le d'un ordre source judicieux, avant d'appliquer les déclarations de mise en page dans les requêtes média. </p>
 
-<p>Thanks to ever‐evolving nature of <abbr>CSS</abbr>, there are multiple ways of applying layout. Like <span id="Andy%20Tanenbaum">Andy Tanenbaum</span> said:</p>
+<p>Grâce à la nature évolutive des <abbr>CSS</abbr>,  il existe de multiples façons d'appliquer la mise en page. Comme l'a dit <span id="Andy%20Tanenbaum">Andy Tanenbaum</span>:</p>
 
 <blockquote>
-<p>The nice thing about standards is that you have so many to choose from.</p>
+<p>Ce qui est bien avec les normes, c'est que vous avez l'embarras du choix.</p>
 </blockquote>
 
 </section>
@@ -114,9 +114,9 @@
 
 <h2 id="communication">Communication</h2>
 
-<p>Applying the three‐step process to a news site is relatively straightforward. Catching up with the news is a fairly passive act. To really test this process, we need to apply it to something more interactive.</p>
+<p>L'application de ce processus en trois étapes à un site d'information est relativement simple. Se tenir au courant de l'actualité est un acte assez passif. Pour vraiment tester ce processus, nous devons l'appliquer à quelque chose de plus interactif.</p>
 
-<p>Suppose we were building a social network. The people using our tool need to be able to communicate with one another regardless of where in the world they are. The core functionality is sending and receiving messages.</p>
+<p>Supposons que nous construisions un réseau social. Les personnes qui utilisent notre outil doivent pouvoir communiquer entre elles, où qu'elles se trouvent dans le monde. La fonctionnalité de base est l'envoi et la réception de messages.</p>
 
 <figure>
 <picture>
@@ -124,14 +124,14 @@
 <source media="all and (min-width: 50em)" srcset="images/medium/socialnetworks.png, images/large/socialnetworks.png 1.5x" />
 <img src="images/small/socialnetworks.png" alt="A montage of screenshots." srcset="images/medium/socialnetworks.png 2x, images/large/socialnetworks.png 3x" />
 </picture>
-<figcaption>Just some of the social networking sites that have graced the web.</figcaption>
+<figcaption>Juste quelques sites de résaux sociaux qui ont honoré le web.</figcaption>
 </figure>
 
-<p>Displaying messages in a web browser isn’t difficult. There might be a lot of complexity on the server involving databases, syncing, queueing, and load balancing, but the <abbr>HTML</abbr> needed to structure a reverse‐chronological list isn’t very different from the <abbr>HTML</abbr> needed for a news site.</p>
+<p>L'affichage de messages dans un navigateur Web n'est pas difficile. Il peut y avoir beaucoup de complexité sur le serveur impliquant des bases de données, la synchronisation, la mise en file d'attente et l'équilibrage de charge, mais le <abbr>HTML</abbr> nécessaire pour structurer une liste chronologique inversée n'est pas très différent du <abbr>HTML</abbr> nécessaire pour un site d'information.</p>
 
-<p>Sending a message from the browser to the web server requires <abbr>HTML</abbr> that is interactive. That’s where forms come in. In this case, a form with a text input and a submit button should be enough, at least for the basic functionality.</p>
+<p>L'envoi d'un message du navigateur au serveur Web nécessite du <abbr>HTML</abbr> interactif. C'est là que les formulaires entrent en jeu. Dans ce cas, un formulaire avec une entrée de texte et un bouton d'envoi devrait suffire, au moins pour la fonctionnalité de base.</p>
 
-<p>People can now receive and respond to messages on our social network, no matter what kind of device or browser they are using. Now the trick is to improve the experience without breaking that fundamental activity.</p>
+<p>Les gens peuvent désormais recevoir et répondre à des messages sur notre réseau social, quel que soit le type d'appareil ou de navigateur qu'ils utilisent. Il s'agit maintenant d'améliorer l'expérience sans rompre cette activité fondamentale.</p>
 
 <p>If we were to leave the site in this <abbr>HTML</abbr>‐only state, I don’t think we’d be celebrating our company’s <abbr>IPO</abbr> anytime soon. To really distinguish our service from the competition, we need that third step in the process: enhance!</p>
 
